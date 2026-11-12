@@ -1,0 +1,47 @@
+{
+  "variant": "dsg_se",
+  "seed": 42,
+  "smoke": false,
+  "pretrained": true,
+  "cfg": {
+    "img_size": 224,
+    "batch_size": 32,
+    "max_epochs": 100,
+    "early_stop_patience": 15,
+    "optimizer": "Adam",
+    "lr": 5e-05,
+    "weight_decay": 0.001,
+    "scheduler": "ReduceLROnPlateau(mode=max on val macro-F1, factor=0.5, patience=5, min_lr=1e-7)",
+    "loss": "FocalLoss(gamma=2.0, no alpha)",
+    "sampler": "WeightedRandomSampler (inverse class frequency)",
+    "dropout": 0.5,
+    "hidden": 512,
+    "hc_dim": 42,
+    "ccdgs_groups": 4,
+    "se_reduction": 16,
+    "ta_kernel": 7,
+    "train_aug": "RandomResizedCrop(224,0.8-1.0), HFlip, VFlip, Rotation(15), ColorJitter(0.2,0.2,0.2,0.02)",
+    "eval_aug": "none (ToTensor + ImageNet normalisation)",
+    "checkpoint_selection": "best validation macro-F1"
+  },
+  "split_md5": {
+    "train": "2a7f9227b2b01baebfaf1754aad5f858",
+    "validation": "8887c3731d4f3e3fe2012f69aa540110",
+    "test": "4696e71f7e2934a2818dd8fe5104639e"
+  },
+  "script_md5": "77d87ea56c3e4585e89058a9952154c7",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "n": {
+    "train": 3573,
+    "validation": 1191,
+    "test": 1191
+  },
+  "params": 22709296,
+  "best_epoch": 77,
+  "best_val_macro_f1": 0.927363849489699,
+  "epochs_run": 92,
+  "best_ckpt_md5": "3dac25d70a7469071e632534c249ddee"
+}
