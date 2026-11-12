@@ -1,0 +1,12 @@
+{
+  "protocol_md5": "613e413ea60ecececd5d3d7e28c87b0d",
+  "script_md5": "d4a5febc73c33620713a457530f100b4",
+  "runs": {
+    "meff_s42": "f55d3cf371c4b7e1ef73b79caf1fd14a",
+    "meff_s43": "7ca1b623900cb412c888e65f0e27214a",
+    "meff_s44": "a96842e97e45e3fb8ef3ce3b338a9926",
+    "dsg_s42": "6374bf8bf548af5038433056651df626",
+    "dsg_s43": "3674c756e16e7627e9e2167041bc26c5",
+    "dsg_s44": "f5c70c99a90913651fab9a1737b3ebc6"
+  }
+}

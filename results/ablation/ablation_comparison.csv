@@ -1,0 +1,5 @@
+comparison,A,B,delta_macro_f1,ci95_low,ci95_high,delta_accuracy,mcnemar_b,mcnemar_c,mcnemar_p_exact,mcnemar_p_holm,verdict
+A1: effect of SE (without handcrafted),DSG_SE_hard,DSG_hard,0.0045563165005918504,-0.014029364511016301,0.023760568722536346,0.0033585222502099388,38,34,0.7239481457469141,1.0,no significant difference
+A2: effect of handcrafted (without SE),DSG_HC_hard,DSG_hard,0.009392374596008723,-0.005372532326598014,0.025000097083563447,0.010915197313182134,40,27,0.1420713794263756,0.5682855177055024,no significant difference
+A3: effect of handcrafted (with SE),MEFF_hard,DSG_SE_hard,-0.0022548698115010257,-0.014286931812964958,0.00903665920233131,0.0025188916876573986,32,29,0.7981526273057179,1.0,no significant difference
+A4: effect of SE (with handcrafted),MEFF_hard,DSG_HC_hard,-0.007090927906917899,-0.022627072412568523,0.00653896611624719,-0.005037783375314797,26,32,0.5118423084381691,1.0,no significant difference

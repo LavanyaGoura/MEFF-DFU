@@ -1,0 +1,25 @@
+subset,model,n,accuracy,macro_f1
+"all 1,191 test images",MEFF_hard,1191,0.9000839630562553,0.9092904887896143
+"all 1,191 test images",DSG_hard,1191,0.8942065491183879,0.9069890421005234
+"all 1,191 test images",DSG_SE_hard,1191,0.8975650713685979,0.9115453586011153
+"all 1,191 test images",DSG_HC_hard,1191,0.9051217464315701,0.9163814166965322
+"all 1,191 test images",MEFF_s44,1191,0.8883291351805206,0.8959124549615347
+"all 1,191 test images",DSG_s42,1191,0.8757346767422334,0.8917714850204026
+"all 1,191 test images",DSG_s43,1191,0.892527287993283,0.9083931465690167
+"all 1,191 test images",DSG_s44,1191,0.8639798488664987,0.8835188082586787
+without the 39 near-duplicate images,MEFF_hard,1152,0.8967013888888888,0.90115301818894
+without the 39 near-duplicate images,DSG_hard,1152,0.890625,0.8989848942297153
+without the 39 near-duplicate images,DSG_SE_hard,1152,0.8949652777777778,0.9044937331320617
+without the 39 near-duplicate images,DSG_HC_hard,1152,0.9027777777777778,0.9092344409027979
+without the 39 near-duplicate images,MEFF_s44,1152,0.8845486111111112,0.8864953156403805
+without the 39 near-duplicate images,DSG_s42,1152,0.8715277777777778,0.8821171143925259
+without the 39 near-duplicate images,DSG_s43,1152,0.8888888888888888,0.9009488174129867
+without the 39 near-duplicate images,DSG_s44,1152,0.8602430555555556,0.8745106935414979
+only the 39 near-duplicate images,MEFF_hard,39,1.0,1.0
+only the 39 near-duplicate images,DSG_hard,39,1.0,1.0
+only the 39 near-duplicate images,DSG_SE_hard,39,0.9743589743589743,0.9701298701298702
+only the 39 near-duplicate images,DSG_HC_hard,39,0.9743589743589743,0.9701298701298702
+only the 39 near-duplicate images,MEFF_s44,39,1.0,1.0
+only the 39 near-duplicate images,DSG_s42,39,1.0,1.0
+only the 39 near-duplicate images,DSG_s43,39,1.0,1.0
+only the 39 near-duplicate images,DSG_s44,39,0.9743589743589743,0.9701298701298702

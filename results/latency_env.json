@@ -1,0 +1,15 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "cuda": "13.0",
+  "device": "cuda:0",
+  "gpu": "Tesla T4",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_threads": 2,
+  "n_images": 200,
+  "n_warmup": 20,
+  "n_runs": 100,
+  "meff_v3_1_md5": "77d87ea56c3e4585e89058a9952154c7",
+  "date": "2026-11-12 08:49:10"
+}

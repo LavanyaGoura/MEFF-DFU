@@ -1,0 +1,8 @@
+Pre-registered ablation (PROTOCOL_ABLATION.md): hard-vote ensembles, test macro-F1, paired bootstrap (2000 resamples, seed 42), McNemar exact + Holm over A1-A4.
+A1: effect of SE (without handcrafted): delta +0.0046, 95% CI [-0.0140, +0.0238] -> no significant difference
+A2: effect of handcrafted (without SE): delta +0.0094, 95% CI [-0.0054, +0.0250] -> no significant difference
+A3: effect of handcrafted (with SE): delta -0.0023, 95% CI [-0.0143, +0.0090] -> no significant difference
+A4: effect of SE (with handcrafted): delta -0.0071, 95% CI [-0.0226, +0.0065] -> no significant difference
+SE block: NO CONSISTENT SIGNIFICANT EFFECT (no significant difference; no significant difference)
+Handcrafted features: NO CONSISTENT SIGNIFICANT EFFECT (no significant difference; no significant difference)
+Secondary: two-way ANOVA on single-model test macro-F1 (3 seeds per cell): SE p=0.8787; handcrafted p=0.6513; interaction p=0.1525

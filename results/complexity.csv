@@ -1,0 +1,4 @@
+model,params,params_M,gflops,gmacs,latency_ms_batch1_median,device,source
+MEFF expert,22730800,22.731,7.607,3.803,20.502,cuda (Tesla T4),meff_s42 notebook output (complexity cell; printed to 3 decimals)
+MEFF ensemble (3 experts),68192400,68.192,22.820,11.410,61.507,cuda (Tesla T4),meff_s42 notebook output (3 x expert; not separately measured)
+Dense-ShuffleGCANet (DSG),22363184,22.363,7.606,3.803,21.469,cuda (Tesla T4),meff_s42 notebook output

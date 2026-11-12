@@ -1,0 +1,4 @@
+Primary comparison: MEFF_hard - DSG_hard, test macro-F1
+delta = 0.002301, 95% CI [-0.014683, 0.020000] (paired group bootstrap, 2000 resamples, seed 42, 1191 test groups)
+Rule: CI entirely > 0 -> MEFF outperforms; entirely < 0 -> DSG outperforms; else no significant difference.
+DECISION: No significant difference between MEFF and Dense-ShuffleGCANet

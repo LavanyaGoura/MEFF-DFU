@@ -1,0 +1,35 @@
+{
+  "method": "image-level stratified random split: train_test_split test 0.20 then 0.25 of remainder, random_state 42",
+  "group_id": "one id per image (no grouping)",
+  "versions": {
+    "python": "3.13.18",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "near_duplicate_audit": {
+    "validation": {
+      "images_with_near_duplicate_in_train": 41,
+      "per_class": {
+        "NONE": 13,
+        "INFECTION": 17,
+        "ISCHAEMIA": 7,
+        "BOTH": 4
+      }
+    },
+    "test": {
+      "images_with_near_duplicate_in_train": 39,
+      "per_class": {
+        "NONE": 6,
+        "INFECTION": 17,
+        "ISCHAEMIA": 9,
+        "BOTH": 7
+      }
+    }
+  },
+  "files_md5": {
+    "train.csv": "2a7f9227b2b01baebfaf1754aad5f858",
+    "validation.csv": "8887c3731d4f3e3fe2012f69aa540110",
+    "test.csv": "4696e71f7e2934a2818dd8fe5104639e"
+  }
+}

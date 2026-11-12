@@ -1,0 +1,5 @@
+,pred_NONE,pred_INFECTION,pred_ISCHAEMIA,pred_BOTH
+true_NONE,471,36,2,1
+true_INFECTION,67,442,0,2
+true_ISCHAEMIA,1,0,41,4
+true_BOTH,1,3,2,118

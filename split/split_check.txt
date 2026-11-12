@@ -1,0 +1,43 @@
+Stratified random 60:20:20 split, image level, seed 42 (no near-duplicate grouping)
+
+Counts
+            train  validation  test  total
+class_name                                
+NONE         1531         511   510   2552
+INFECTION    1533         511   511   2555
+ISCHAEMIA     136          45    46    227
+BOTH          373         124   124    621
+TOTAL        3573        1191  1191   5955
+
+Percent of class
+            train  validation   test
+class_name                          
+NONE        59.99       20.02  19.98
+INFECTION   60.00       20.00  20.00
+ISCHAEMIA   59.91       19.82  20.26
+BOTH        60.06       19.97  19.97
+TOTAL       60.00       20.00  20.00
+
+Shared relpath / md5 between subsets: 0
+
+Near-duplicate audit (pHash, T = 8 bits; reported only, not used for splitting)
+{
+  "validation": {
+    "images_with_near_duplicate_in_train": 41,
+    "per_class": {
+      "NONE": 13,
+      "INFECTION": 17,
+      "ISCHAEMIA": 7,
+      "BOTH": 4
+    }
+  },
+  "test": {
+    "images_with_near_duplicate_in_train": 39,
+    "per_class": {
+      "NONE": 6,
+      "INFECTION": 17,
+      "ISCHAEMIA": 9,
+      "BOTH": 7
+    }
+  }
+}

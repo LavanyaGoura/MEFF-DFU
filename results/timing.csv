@@ -1,0 +1,4 @@
+run,epochs,sec_per_epoch_mean,sec_per_epoch_sd,train_wall_s,train_wall_min,test_1191_s,features_plus_setup_5955_s
+meff_s42,75,29.39,0.73,2212.0,36.87,3.0,101.0
+meff_s43,39,28.36,1.18,1107.0,18.45,2.0,100.0
+meff_s44,75,31.03,0.73,2314.0,38.57,3.0,119.0
