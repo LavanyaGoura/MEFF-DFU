@@ -156,4 +156,4 @@ The protocols, `meff_main.py`, `meff_ablation.py` and the notebooks are kept exa
 
 ## License
 
-MIT License (see `LICENSE`).
+All rights reserved until the paper is published. The code and results are shared now so that the editors and reviewers can check them. After publication, the code will be released under the MIT License. Until then, please contact the corresponding author of the paper before using any part of this repository.
